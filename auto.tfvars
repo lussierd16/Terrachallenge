@@ -1,0 +1,3 @@
+# declaire vars
+
+location = "EastUS"

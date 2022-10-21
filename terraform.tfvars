@@ -1,0 +1,4 @@
+# declaire vars
+
+
+password = "blahpwblah"
