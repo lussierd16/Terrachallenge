@@ -9,7 +9,7 @@ resource "azurerm_resource_group" "rg1" {
 # Locals
 locals {
 
-vnet_name = "${var.company}_${var.location}_${var.environment}vnet"
+vnet_name = "${var.company}_${var.location}_${var.environment}_vnet"
 
 }
 

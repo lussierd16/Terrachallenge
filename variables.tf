@@ -4,13 +4,15 @@ variable "location" {
   default = "EastUS"
 }
 
-variable "password" {}
+#variable "password" {}
 
 variable "company" {}
 
 variable "environment" {}
 
-variable "tags" {}
+variable "tags" {
+default = {env = "dluss" }
+}
 
 variable "address_space" {}
 
