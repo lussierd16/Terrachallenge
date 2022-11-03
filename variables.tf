@@ -11,7 +11,7 @@ variable "company" {}
 variable "environment" {}
 
 variable "tags" {
-default = {env = "dluss" }
+  default = { env = "dluss" }
 }
 
 variable "address_space" {}
