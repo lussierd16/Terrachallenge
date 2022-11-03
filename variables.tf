@@ -11,7 +11,8 @@ variable "company" {}
 variable "environment" {}
 
 variable "tags" {
-  default = { env = "dluss" }
+  default = { creator = "dluss", deployment = "terraform" }
+
 }
 
 variable "address_space" {}
